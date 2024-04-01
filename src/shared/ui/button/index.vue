@@ -1,3 +1,4 @@
+/* @vue-ignore */
 <template>
   <component :is="tagname" v-if="!to" :class="buttonClass" :data-color="buttonColor">
     <Icon v-if="icon && iconSide === 'left'" v-bind="iconProps" />
