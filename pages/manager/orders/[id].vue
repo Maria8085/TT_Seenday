@@ -3,7 +3,7 @@
   <main>
     <FixedLeftColumn>
       <template v-slot:fixed>
-        123
+        filters
       </template>
       <template v-slot:default>
         <StatusCard class="status-card" status="success">№: {{ route.params.id }}</StatusCard>
